@@ -1,0 +1,21 @@
+---
+- # ====== List of Values: EMPLOYEES.FIRST_NAME ================
+  id: 16625446175884062
+  identification: 
+    name: EMPLOYEES.FIRST_NAME
+
+  subscription: 
+    version-number: 21774921
+
+  source: 
+    location: Local Database
+    type: Table / View
+    table-owner: Parsing Schema
+    table-name: EMPLOYEES
+
+  column-mapping: 
+    return: EMPLOYEE_ID
+    display: FIRST_NAME
+    default-sort: FIRST_NAME
+    sort-direction: Ascending (Nulls Last)
+

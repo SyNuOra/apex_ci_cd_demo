@@ -1,0 +1,63 @@
+---
+- # ====== Breadcrumb: Breadcrumb ==============================
+  id: 16609426411884001
+  identification: 
+    name: Breadcrumb
+
+  entries: 
+  - # ====== Entry: Home =========================================
+    id: 16609601942884002
+    identification: 
+      name: Home
+      page-number: 1
+
+    execution: 
+      sequence: 10
+
+    link: 
+      target: 
+        url: 'f?p=&APP_ID.:1:&APP_SESSION.::&DEBUG.:::'
+        page: 1 # Home
+
+  - # ====== Entry: Salary Histories Search ======================
+    id: 16630913235884071
+    identification: 
+      name: Salary Histories Search
+      page-number: 2
+
+    execution: 
+      sequence: 10
+
+    link: 
+      target: 
+        url: 'f?p=&APP_ID.:2:&APP_SESSION.::&DEBUG.:::'
+        page: 2 # Salary Histories Search
+
+  - # ====== Entry: Salary Histories Report ======================
+    id: 16646050552884098
+    identification: 
+      name: Salary Histories Report
+      page-number: 3
+
+    execution: 
+      sequence: 10
+
+    link: 
+      target: 
+        url: 'f?p=&APP_ID.:3:&APP_SESSION.::&DEBUG.:::'
+        page: 3 # Salary Histories Report
+
+  - # ====== Entry: Calendar =====================================
+    id: 16648308716884100
+    identification: 
+      name: Calendar
+      page-number: 5
+
+    execution: 
+      sequence: 10
+
+    link: 
+      target: 
+        url: 'f?p=&APP_ID.:5:&APP_SESSION.::&DEBUG.:::'
+        page: 5 # Calendar
+
